@@ -1,4 +1,12 @@
+# Pyber Ride Sharing
 
+## Analysis
+
+1. There is a correlation between the city type and the number of drivers available as well as the total number of rides taken.  Based on the results shown in the bubble chart, there’s a higher number of drivers in the urban cities as compared to the suburban cities and even less in the rural cities.
+
+2. The average fare increases as there are less drivers by city type.  The green bubbles representing the rural cities shows to have higher fares than the urban cities.
+
+3. The urban cities have more drivers and riders than the other two city types that fares are at a competitive rate.  Charting each variable in a separate pie chart helped to draw on this conclusion where it is more pronounced when comparing the pie chart by total fare with total drivers and total number of rides between the urban and rural city types.  The color schemes were kept the same across the three pie charts for easier comparison across each of the pie charts.
 
 ```python
 # Environment Setup
