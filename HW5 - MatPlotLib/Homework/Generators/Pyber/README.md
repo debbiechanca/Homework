@@ -105,32 +105,32 @@ cities_pd.head()
   <tbody>
     <tr>
       <th>0</th>
-      <td>Wadehaven</td>
-      <td>35</td>
+      <td>Lake Patriciaside</td>
+      <td>68</td>
       <td>Urban</td>
     </tr>
     <tr>
       <th>1</th>
-      <td>Port Tonyfurt</td>
-      <td>11</td>
+      <td>Virginiafurt</td>
+      <td>52</td>
       <td>Urban</td>
     </tr>
     <tr>
       <th>2</th>
-      <td>Lopezborough</td>
-      <td>21</td>
+      <td>North Sara</td>
+      <td>55</td>
       <td>Urban</td>
     </tr>
     <tr>
       <th>3</th>
-      <td>East Barbara</td>
-      <td>10</td>
+      <td>North Samantha</td>
+      <td>42</td>
       <td>Urban</td>
     </tr>
     <tr>
       <th>4</th>
-      <td>Tiffanyport</td>
-      <td>31</td>
+      <td>Lake Nicoleside</td>
+      <td>67</td>
       <td>Urban</td>
     </tr>
   </tbody>
@@ -202,38 +202,38 @@ rides_pd.head()
   <tbody>
     <tr>
       <th>0</th>
-      <td>Nicoleville</td>
-      <td>2018-02-08 09:23:47</td>
-      <td>24.30</td>
-      <td>8785341428097</td>
+      <td>Annaland</td>
+      <td>2018-01-06 04:45:47</td>
+      <td>40.58</td>
+      <td>5519324720952</td>
     </tr>
     <tr>
       <th>1</th>
-      <td>Stacychester</td>
-      <td>2018-03-04 23:52:33</td>
-      <td>38.73</td>
-      <td>3278871786355</td>
+      <td>Ortizland</td>
+      <td>2018-03-06 18:20:18</td>
+      <td>38.94</td>
+      <td>4874045918745</td>
     </tr>
     <tr>
       <th>2</th>
-      <td>South Steven</td>
-      <td>2018-01-21 05:51:14</td>
-      <td>8.43</td>
-      <td>5470075233262</td>
+      <td>Hollowayburgh</td>
+      <td>2018-03-08 02:53:44</td>
+      <td>23.51</td>
+      <td>8211332961309</td>
     </tr>
     <tr>
       <th>3</th>
-      <td>Clementsmouth</td>
-      <td>2018-02-06 18:10:52</td>
-      <td>8.30</td>
-      <td>3159038750061</td>
+      <td>Josephtown</td>
+      <td>2018-01-05 01:58:21</td>
+      <td>13.16</td>
+      <td>9035194799011</td>
     </tr>
     <tr>
       <th>4</th>
-      <td>Smithshire</td>
-      <td>2018-02-08 08:27:33</td>
-      <td>11.36</td>
-      <td>4726763293249</td>
+      <td>Lukeport</td>
+      <td>2018-02-20 17:02:58</td>
+      <td>5.27</td>
+      <td>2478892694344</td>
     </tr>
   </tbody>
 </table>
