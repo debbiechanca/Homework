@@ -1,0 +1,16 @@
+  ' Loop through rows in the column
+  'For i = 2 To LastRow
+  For i = 2 To 3
+    ' Searches for when the value of the next cell is different than that of the current cell
+    If Cells(i + 1, column).Value <> Cells(i, column).Value Then
+        Cells(ResultRow, ResultColumn1) = Cells(i, column).Value
+        TotalVolume = TotalVolume + Cells(i, LastColumn).Value
+        Cells(ResultRow, ResultColumn2).Value = TotalVolume
+        TotalVolume = 0
+        ResultRow = ResultRow + 1
+      Else
+        TotalVolume = TotalVolume + Cells(i, LastColumn).Value
+    End If
+    
+  Next i
+
