@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+
+  <meta charset="UTF-8">
+  <title>Lattitude-Max Temperature</title>
+
+  <!-- Bring in our bootstrap stylesheet -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" href="style.css">
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+  <!-- As a heading -->
+  <nav class="navbar navbar-default">
+        <div class="container-fluid">
+          <!-- Brand and toggle get grouped for better mobile display -->
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="C:\Users\DCPC\Documents\DA Bootcamp\Homework\HW12 - Web\index.html">Lattitude</a>
+          </div>
+      <!-- Collect the nav links, forms, and other content for toggling -->
+      <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+          <ul class="nav navbar-nav navbar-right">
+            
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Plots<span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li><a href="C:\Users\DCPC\Documents\DA Bootcamp\Homework\HW12 - Web\Visualization1 Page\index.html">
+                  Max Temperature</a></li>
+                <li><a href="C:\Users\DCPC\Documents\DA Bootcamp\Homework\HW12 - Web\Visualization2 Page\index.html">Humidity</a></li>
+                <li><a href="C:\Users\DCPC\Documents\DA Bootcamp\Homework\HW12 - Web\Visualization3 Page\index.html">Cloudiness</a></li>
+                <li><a href="C:\Users\DCPC\Documents\DA Bootcamp\Homework\HW12 - Web\Visualization4 Page\index.html">Wind Speed</a></li>
+              </ul>
+            </li>
+          
+            <li><a href="C:\Users\DCPC\Documents\DA Bootcamp\Homework\HW12 - Web\Comparison Page\index.html">Comparison</a></li>
+            <li><a href="C:\Users\DCPC\Documents\DA Bootcamp\Homework\HW12 - Web\Data Page\index.html">Data</a></li>
+
+          </ul>
+        </div>
+        <!-- /.navbar-collapse -->
+    </div>
+  </nav>
+
+
+  <div class="jumbotron">
+
+    <div class="col-md-8">
+        <header class="header-summary">
+        <h1> Max Temperature</h1>
+        </header>
+        <hr>
+        <img id="Temperature Image" src="C:\Users\DCPC\Documents\DA Bootcamp\Homework\HW12 - Web\output_9_0.png" 
+        alt="Temperature Image" width="800" height="600">
+        <p>As expected, the weather becomes significantly warmer as one approaches the equator (0 Deg. Lattitude).  
+            More interestingly, however, is the fact that the southern hemisphere tends to be warmer this time of year 
+            than the northern hemisphere.  This may be due to the tilt of the earth at the time of the year this data 
+            was gathered.</p>
+      </div>
+      <div class="col-md-4">
+        <div id="Visualizations" class="container">
+        <h1> Visualizations</h1>
+        <hr>
+        <div class="container">
+            <div class="col-md-6">
+                <a href="C:\Users\DCPC\Documents\DA Bootcamp\Homework\HW12 - Web\Visualization1 Page\index.html">
+                    <img target="plot1" src="C:\Users\DCPC\Documents\DA Bootcamp\Homework\HW12 - Web\output_9_0.png"  
+                    alt="Visual1" width="200" height="200">
+                </a>  
+            <div class="col-md-6">
+                <a href="C:\Users\DCPC\Documents\DA Bootcamp\Homework\HW12 - Web\Visualization2 Page\index.html">
+                    <img target="plot2" src="C:\Users\DCPC\Documents\DA Bootcamp\Homework\HW12 - Web\output_11_0.png"  
+                    alt="Visual2" width="200" height="200">
+                </a>  
+            </div>              
+        </div>
+        
+        <div class="container">
+            <div class="col-md-6">
+                <a href="C:\Users\DCPC\Documents\DA Bootcamp\Homework\HW12 - Web\Visualization3 Page\index.html">
+                    <img target="plot3" src="C:\Users\DCPC\Documents\DA Bootcamp\Homework\HW12 - Web\output_13_0.png"  
+                    alt="Visual3" width="200" height="200">
+                </a>
+            </div>
+            <div class="col-md-6">
+                <a href="C:\Users\DCPC\Documents\DA Bootcamp\Homework\HW12 - Web\Visualization4 Page\index.html">
+                    <img target="plot4" src="C:\Users\DCPC\Documents\DA Bootcamp\Homework\HW12 - Web\output_15_0.png"  
+                    alt="Visual4" width="200" height="200">
+                </a>
+            </div>              
+        </div>
+      </div>
+      </div>
+    </div>
+  </body>
+
+</html>

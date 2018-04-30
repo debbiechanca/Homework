@@ -1,0 +1,39 @@
+  /* Giving our navbar some padding and a background color */
+  .navbar-brand {
+    padding: 10px;
+    font-size: 200%;
+    background: teal;
+    text-align: center;
+    }
+
+    .jumbotron {
+        color: gray;
+        font-size: 120%;
+        text-align: Left;
+    }
+
+    .header-summary {
+        font-size: 120%;
+        text-align: left;
+        color: teal;
+    }
+
+/* Adding media queries to show the drop-down, and hide the navbar when the screen is smaller than 480 pixels */
+@media (max-width: 480px) {
+    .navbar li {
+      padding: 10px;
+    }
+  
+    .post {
+      margin-right: 30px;
+      margin-left: 30px;
+    }
+  
+    .navbar ul {
+      visibility: hidden;
+    }
+  
+    #nav-select {
+      visibility: visible;
+    }
+  }
